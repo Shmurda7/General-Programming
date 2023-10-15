@@ -1,0 +1,3 @@
+The car traveled 275.500000 miles in 8.500000 hours
+The car's speed was 32.411765 miles/hour
+The car's speed was 14.405229 meters/second
