@@ -48,6 +48,12 @@ xlabel('Time Step');
 ylabel('Position');
 legend('True State', 'Measurements', 'Estimated State');
 title('Position Estimation');
+sdf
+sd
+s
+d
+sd
+sd
 
 subplot(2,1,2);
 plot(true_state(2,:), 'b', 'LineWidth', 2);
