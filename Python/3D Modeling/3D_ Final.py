@@ -6,7 +6,7 @@ import serial
 
 #serial stuff
 
-te=serial.Serial('COM4',115200)
+te=serial.Serial('COM3',115200)
 sleep(1)
 
 scene.range=5
@@ -45,11 +45,17 @@ while True:
     dataPacket=str(dataPacket,'utf-8')
     splitPacket=dataPacket.strip().split("\t")  # Remove whitespace and split by tab
     if len(splitPacket) >= 3:
-        pitch=float(splitPacket[0])*toRad
-        roll=float(splitPacket[1])*toRad
-        yaw=float(splitPacket[2])*toRad
+        # Extracting numerical values
+        pitch_str = splitPacket[0].split(":")[1].strip()  # Extracting the value after "Angle:"
+        roll_str = splitPacket[1].split(":")[1].strip()  # Extracting the value after "Roll:"
+        yaw_str = splitPacket[2].split(":")[1].strip()   # Extracting the value after "Yaw:"
+        
+        # Converting extracted strings to floats
+        pitch=float(pitch_str)*toRad
+        roll=float(roll_str)*toRad
+        yaw=float(yaw_str)*toRad
         print("pitch= ",pitch,"roll= ",roll,"yaw= ",yaw)
-        rate(2000)
+        rate(200)
         k=vector(cos(yaw)*cos(pitch),sin(pitch),sin(yaw)*cos(pitch))
         y=vector(0,1,0)
         s=cross(k,y)
