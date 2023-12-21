@@ -1,0 +1,5094 @@
+<?xml version="1.0"?>
+<demos>
+  <demoitem>
+    <source>CheckSystemControllabilityExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex00097163</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConjugateOfDynamicSystemModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex00515848</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GainScheduledProcessExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex00624122</metadata>
+    <thumbnail>data/gsprocess4.png</thumbnail>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control">drct_CSTR_SignalEditorData.mat</file>
+    <file component="control" timestamp="0">gsprocess1.png</file>
+    <file component="control" timestamp="0">gsprocess2.png</file>
+    <file component="control" timestamp="0">gsprocess4.png</file>
+    <file component="control" timestamp="1446644858">CSTRData.mat</file>
+    <file component="control" timestamp="1629981057">rct_CSTR.slx</file>
+    <file component="control" timestamp="1629981057">rct_CSTR_OL.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>PIDTuningExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex00827949</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">pidtuning1.png</file>
+    <file component="control" timestamp="0">pidtuning2.png</file>
+    <file component="control" timestamp="0">pidtuning3.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PadApproximationOfMIMOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01004821</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1631549807">ssModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SensitivityFunctionAtALocationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01066049</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1456516085">getlooptransfer2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>RelativeInputAndOutputPassivityIndicesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01235504</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractParallelFormGainsFromStandardFormControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01284877</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainNoiseAmplificationEvaluatedWithALoopOpeningExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01378642</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1468426459" component="control">tuninggoal5b.png</file>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyLimitedBalancedTruncationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01399674</metadata>
+    <thumbnail>html/FrequencyLimitedBalancedTruncationExample_03.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1450719736">mr_baltrunc_freqlim.png</file>
+    <file component="control" timestamp="1610643958">building.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractDiscreteTimeSparseFirstOrderStateSpaceModelDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01444258</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593283444">sparseFOData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>MultirateNonlinearStateEstimationInSimulinkExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex01512537</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1484166168">ArgInConfig.png</file>
+    <file component="control" timestamp="1484323391">ekfMultirateExampleEKFBlockDialog1.png</file>
+    <file component="control" timestamp="1484166168">ekfMultirateExampleEKFBlockDialog2.png</file>
+    <file component="control" timestamp="1561412555">generateTrueStates.m</file>
+    <file component="control" timestamp="1484166168">gpsMeasurementFcn.m</file>
+    <file component="control" timestamp="1516307343">multirateEKFExample.slx</file>
+    <file component="control" timestamp="1484254365">SimulinkFunctionBlock.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ChangeBodePlotUnitsFromTheCommandLineExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01663547</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GettingStartedWithTheControlSystemDesignerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex01714899</metadata>
+    <thumbnail>html/GettingStartedWithTheControlSystemDesignerExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>VaryingTuningGoalWithLTIParameterExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex02173325</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractStandardFormCoefficientsFrom2DOFPIControllerArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex02461584</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NDDScaling</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex02519547</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">prescale1.png</file>
+    <file component="control" timestamp="0">prescale2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>dcdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex02814512</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">dcdemofigures_01.png</file>
+    <file component="control" timestamp="0">dcdemofigures_02.png</file>
+    <file component="control" timestamp="0">dcdemofigures_03.png</file>
+    <file component="control" timestamp="0">dcdemofigures_04.png</file>
+    <file component="control" timestamp="0">dcdemofigures_05.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyDisturbanceResponseCharacteristicsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex02982539</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ContinuousTimeSecondOrderSparseModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex03141183</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593122115">sparseBeam.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeSparseFirstOrderModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex03213039</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1594316472">sparseFODiscrete.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SISOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex03411273</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>Design2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex03642582</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MultiModeSimulationExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex04011344</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file component="control" timestamp="0">msd.png</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomizedNicholsPlotOfTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex04132948</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertTransferFunctionToStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex04179828</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CheckSectorBoundsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex04293209</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1452015538" component="control">sector_diagram1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDiscreteTimeDynamicSystemToParallelFormPIDExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex04727871</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LoopGainRequirementWithoutStabilityConstraintOnInnerLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex04753077</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1458589707" component="control">tuninggoal5.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DecomposeA2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex05063937</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1434570459" component="control">ffarch.png</file>
+    <file timestamp="1434570459" component="control">fbarch.png</file>
+    <file timestamp="1434570459" component="control">frarch.png</file>
+    <file timestamp="1434571324" component="control">pid2dofarch.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyStateAndInputNamesForDiscreteTimeStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex05189501</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>AnalysisPointLocationsInControlSystemModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex05224447</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1456516927" component="control">getloopid1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertStateSpaceModelToTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06012361</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NumericValuesofFrequencyDomainCharacteristicsofSISOModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06303069</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeSISOZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06327684</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LoopShapeRequirementWithCrossoverRangeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06551360</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SparseFirstOrderModelInAFeedbackLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06689662</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1595010570">sparseFOSignal.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>StaticGainMIMOZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex06742218</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>milldemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex06879066</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">rollmill_01.png</file>
+    <file component="control" timestamp="0">rollmill_02.png</file>
+    <file component="control" timestamp="0">rollmill_03.png</file>
+    <file component="control" timestamp="0">rollmill_04.png</file>
+    <file component="control" timestamp="0">rollmill_05.png</file>
+    <file component="control" timestamp="0">rollmill_06.png</file>
+    <file component="control" timestamp="0">rollmill_07.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ValidateTuningResultAgainstRequirementsExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex07544486</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1500148000">rct_airframe2.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>TuningValidationExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex07611325</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1495663108">rct_airframe2.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>TimeDelayApproximationInContinuousTimeClosedLoopModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex08198149</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FaultTolerantControlExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex08232423</metadata>
+    <thumbnail>html/FaultTolerantControlExample_05.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1446645915">plotResponses.m</file>
+    <file component="control" timestamp="1446645915">faultTolerantAircraft.mat</file>
+    <file component="control" timestamp="1629915209">faultTolerantAircraft.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>heatexdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex08289945</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">heatex_01.png</file>
+    <file component="control" timestamp="0">heatex_02.png</file>
+    <file component="control" timestamp="0">heatex_03.png</file>
+    <file component="control" timestamp="0">heatex_04.png</file>
+    <file component="control" timestamp="0">heatex_05.png</file>
+  </demoitem>
+  <demoitem>
+    <source>FirstOrderStepResponseWithKnownTimeConstantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex08505780</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FindGainAndPhaseMarginOfModelArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex08623832</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1522685592" component="control">invertedPendulumArray.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainDynamicsOfSpecifiedFeedbackLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex08667278</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>Convert2DOFPIDControllerTo1DOFExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex08944926</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PassivityRequirementExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex09424454</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StaticGainMIMOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex09905542</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NumeratorAndDenominatorCoefficientsOfPadeApproximationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex09916357</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CustomizeInitialConditionsPlotUsingPlotHandleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10019676</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RecommendedModelTypeForBuildingBlockDiagramsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10075869</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ContinuousTimeZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10262534</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscretizeStd2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10591327</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertToSecondOrderSparseModelRepresentationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10656377</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593186341">sparssModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>PlotPassivityOfMultipleSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex10776344</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyStateAndInputNamesForFrequencyResponseDataModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11337256</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1626338388">wtankData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ControlDesignUsingZeroPoleGainModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11439101</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignStandardFormPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11554660</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDomainResponseDataandPlotsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11634183</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractSISOComponentsFrom2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11671203</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDiscreteTimeDynamicSystemTo2DOFStandardFormPIDExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11803067</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NotchFilterStopbandExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex11942078</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RobotArmExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex12199188</metadata>
+    <thumbnail>data/robotarm1.jpg</thumbnail>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simscapeelectrical</product>
+    <product>simscapemultibody</product>
+    <file component="control" timestamp="">dcst_robotarm_JointAngleSignalEditorData.mat</file>
+    <file component="control" timestamp="1470263655">Base.jpg</file>
+    <file component="control" timestamp="1470263655">Bicep.jpg</file>
+    <file component="control" timestamp="1470263655">DriveGear.jpg</file>
+    <file component="control" timestamp="1470263655">Forearm.jpg</file>
+    <file component="control" timestamp="1470263655">Gripper.jpg</file>
+    <file component="control" timestamp="1470263655">Hand.jpg</file>
+    <file component="control" timestamp="1470263655">MultiServos.jpg</file>
+    <file component="control" timestamp="1470263655">PWMHBridgeAverage.jpg</file>
+    <file component="control" timestamp="1470263655">RobotArmSystem.jpg</file>
+    <file component="control" timestamp="1470263655">RobotArm_Mechanics.jpg</file>
+    <file component="control" timestamp="1470263655">Servo.jpg</file>
+    <file component="control" timestamp="1470263655">Turntable.jpg</file>
+    <file component="control" timestamp="1470263655">Wrist.jpg</file>
+    <file component="control" timestamp="1672227256">cst_robotarm.slx</file>
+    <file component="control" timestamp="1470263655">robotarm1.jpg</file>
+    <file component="control" timestamp="1470263655">robotarm3.png</file>
+    <file component="control" timestamp="1470263655">robotarm4.png</file>
+    <file component="control" timestamp="1470263655">robotarm5.png</file>
+    <file component="control" timestamp="1470263655">robotarm6.png</file>
+    <file component="control" timestamp="1470263655">robotarm7.png</file>
+    <file component="control" timestamp="1470263655">robotarm8.png</file>
+    <file component="control" timestamp="1471542680">BB-01_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">BB-02_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">BB-03_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">BaseRef_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">GripAttachmentGasket_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">GripAttachmentPlate_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">GripperGear_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">GripperLeft_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">GripperLink_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">GripperRight_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">ServoHornPlastic_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">TurntableBase_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">TurntablePlate_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">asb-04_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">asb-06_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">asb-09_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">asb-10_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">asb-14_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">at-05_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">at-06_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">bottomCover_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">gat2_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">gat3_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">gripperPad_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">lpags-01_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">lpags-02_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">servoCase_Default_sldprt.STL</file>
+    <file component="control" timestamp="1471542680">servoCover_Default_sldprt.STL</file>
+    <file component="control" timestamp="1472053242">robotarm2.png</file>
+    <file component="control" timestamp="1472156650">robotarm_tuned.gif</file>
+    <file component="control" timestamp="1472156650">robotarm_untuned.gif</file>
+  </demoitem>
+  <demoitem>
+    <source>FRDPlantdemo1</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex12333282</metadata>
+    <thumbnail>html/FRDPlantdemo1_03.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RootLocusPlotOfDynamicSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex12705008</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseOfMIMOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex13288360</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SetOptionsForNicholsPlotExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex13387460</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractParallelFormGainsFromStandardFormPIControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex13569599</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CheckPassivityOfModelsInArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex13899097</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDelayApproximationInContinuousTimeOpenLoopModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex14140706</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractDataFromSpecificModelInSparseSecondOrderArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex14183765</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593281325">sparseSOModelArray.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DesignHardDiskReadWriteHeadControllerExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex14359422</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1471532881" component="control">closed_loop.gif</file>
+    <file timestamp="1471532881" component="control">diskdrive.gif</file>
+    <file timestamp="1471532881" component="control">rlocus_marker.png</file>
+    <file timestamp="1471534094" component="control">series_model.gif</file>
+  </demoitem>
+  <demoitem>
+    <source>TransferFunctionWithAdditionalLoopOpeningsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex14625731</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1442529906">getlooptransfer3.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SecondOrderSparseStateSpaceModelInAFeedbackLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex14817728</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593203495">sparseSOSignal.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>Convert2DOFPIDControllerFromParallelToStandardFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex14867192</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StepResponseOfLPVModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex14919267</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673912392">lpvHCModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOfSecondOrderSparseStateSpaceModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15132242</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593183188">sparseSOArray.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>GSAccessingModelData</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15225515</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PolePlacementObserverDesignExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15647542</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDynamicSystemToStandardForm2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15919279</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GenerateStateSpaceModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16191922</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DSPOrientedDiscreteTimeTransferFunctionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16407773</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PeakGainOfAFrequencyResponseModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16431411</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SingularValuePlotWithSpecifiedLineAttributesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16494911</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StudyParameterVariationBySamplingTunableModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16501542</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CustomizedNicholsPlotOfMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex16940073</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SeparateNearbyModesByAdjustingToleranceExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex17107251</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StabilityMarginsOfATransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex17492882</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PIDControllerDesignInTheLiveEditorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex17594147</metadata>
+    <thumbnail>html/PIDControllerDesignInTheLiveEditorExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1565276936" open="open">PIDControllerDesignLiveEditorTask.mlx</file>
+  </demoitem>
+  <demoitem>
+    <source>ImportMIMOLTIModelIntoSimulinkExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/ImportMIMOLTIModelIntoSimulinkExample.html</file>
+    <metadata>ex17651165</metadata>
+    <thumbnail>html/ImportMIMOLTIModelIntoSimulinkExample_01.png</thumbnail>
+    <hideCode/>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="control" open="open" timestamp="1629981485">LTISystemBlockMIMO.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyIndividualNamesInSummingJunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex17904566</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainWeightedGainOfClosedLoopSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex18104747</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TuningAPhaseLockedLoopUsingLoopShapingDesignExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex18332702</metadata>
+    <sandboxPublished/>
+    <product>control</product>
+    <product>msblks</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1630427194">PLL_TuneLoopFilter.slx</file>
+    <file component="control" timestamp="1591889920">setLoopFilterValue.m</file>
+  </demoitem>
+  <demoitem>
+    <source>AbsoluteStabilityForQuantizedSystemExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex18377947</metadata>
+    <thumbnail>html/AbsoluteStabilityForQuantizedSystemExample_03.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1484085193">absoluteStability.png</file>
+    <file component="control" timestamp="1629908986">DTQuantization.slx</file>
+    <file component="control" timestamp="1484085193">LogQuantPositive.m</file>
+    <file component="control" timestamp="1484085193">PlotSectorBound.m</file>
+  </demoitem>
+  <demoitem>
+    <source>NicholsPlotOfMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex18519632</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CustomPassivityIndexPlotSettingsIndependentOfPreferencesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19061083</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTime2DOFPIControllerInStandardFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19132132</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SigmaPlotWithSpecifiedFrequencyScaleAndUnitsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19175097</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractTransferFunctionsFromIdentifiedModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19365388</metadata>
+    <product>control</product>
+    <product>ident</product>
+    <product>matlab</product>
+    <file component="control" timestamp="1545773633">identifiedModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomizeNicholsPlotUsingPlotHandleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19518483</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>HL20TrimLinearizeExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex19596193</metadata>
+    <thumbnail>html/HL20TrimLinearizeExample_01.png</thumbnail>
+    <product>aeroblks</product>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file timestamp="1500040711" component="control">csthl20_lib.slx</file>
+    <file timestamp="1500040711" component="control">csthl20_trim.slx</file>
+    <file timestamp="1498775271" component="control">plane_angles.png</file>
+    <file component="control" timestamp="1499894053">aeroblk_HL20pic.jpg</file>
+  </demoitem>
+  <demoitem>
+    <source>LoopShapeForTuningSimulinkModelExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex19599568</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1458330733">rct_airframe2.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ResponseConditionResponseDataOfStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19608966</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PoleSpecExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex19660351</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>TuneControlSystemtoSoftRequirementsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20096529</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file timestamp="1395265091" component="control">systune1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ControlDesignForSpinningDisksExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20129740</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>robust</product>
+    <file component="control" timestamp="1671822640">disksGFCN.m</file>
+  </demoitem>
+  <demoitem>
+    <source>LPVModelOfMagLevModelFromBatchLinearizationResultsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20205344</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1674319917">MaglevClosedLoop.slx</file>
+    <file component="control" timestamp="1674319917">MaglevOpenLoop.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyIntegratorDiscretizationMethodExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20227256</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PlotInitialConditionResponsesOfMultipleSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex21044714</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitialResponseOfLinearParameterVaryingStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex21446978</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673912392">lpvHCModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>rlcdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex21715174</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">rlc_01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>InvertedPendulumAndControllerInANegativeFeedbackLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex22354510</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1557437020">pendulumModelAndController.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomRolloffSpecificationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex22372571</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeTransferFunctionModelInDSPFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex22389094</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeSISOTransferFunctionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex22765906</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseofaSISOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex23288925</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractDiscreteTimeSparseSecondOrderModelDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex23393677</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593278813">sparseSOModels.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>notchdemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex23683489</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RandomSampleOfParameterInTunableModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex23685232</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FeedbackLoopwithLoopOpeningSwitchExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex23715062</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395765933" component="control">loopswitch1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PassivityParallelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex24089593</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1452031848" component="control">parallel.png</file>
+  </demoitem>
+  <demoitem>
+    <source>GSModelTypeConversions</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex24144606</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">GSModelTypeConversions_Fig01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>GetGoalAtDesignPointFromVaryingTuningGoalExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex24525427</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GenerateSignalWithSpecifiedSampleTimeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex24873355</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ApproximateModelWithLowerOrderModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25044222</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyModelPropertiesAtModelCreationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25185240</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TransientModelingAndLinearAnalysisOfACantileverBeamExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25191298</metadata>
+    <thumbnail>html/TransientModelingAndLinearAnalysisOfACantileverBeamExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <product>pde</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDomainSpecExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25238145</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">tuningreq3.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SigmaPlotAtSpecifiedFrequenciesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25531165</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PlotSectorIndexVersusFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25616670</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1452015538">sector_diagram1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DisturbanceRejectionGoalExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25885991</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ApproximateDifferentDelaysWithDifferentApproximationOrdeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex26126449</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395411756" component="control">PadeApproximation1.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>EliminateStatesbyPoleZeroCancellationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex26235904</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395780068" component="control">transformation21.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertToFirstOrderSparseModelRepresentationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex26462530</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593191531">mechssModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ModelArrayWithSingleParameterVariationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex26466650</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SampleDynamicsOfLPVModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex26787012</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673208664">dataFcnMaglev.m</file>
+  </demoitem>
+  <demoitem>
+    <source>smithdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex27447675</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">smith_01.png</file>
+    <file component="control" timestamp="0">smith_02.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PolePlacementDesignExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex27742155</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ResponseswithSomeLoopsOpenandOthersClosedExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex27942340</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1442610688">getiotransfer1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractPIDCoefficientsFromEquivalentSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28322283</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StandardFormPIDControllerWithNamedInputAndOutputExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28416067</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyPolynomialOrderingInDiscreteTimeTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28683566</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscretizeAContinuousTime2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex28762679</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>Tune2DOFPIDControllerCommandLineExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex28984523</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1435863426" component="control">pidtuning3a.png</file>
+    <file timestamp="1435863426" component="control">pidtuning4.png</file>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionsResponsePlotAtSpecifiedTimeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29042871</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainWeightedGainEvaluatedWithALoopOpeningExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29118547</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1468426459">tuninggoal5b.png</file>
+  </demoitem>
+  <demoitem>
+    <source>VaryingGoalWithFocusAndOpeningsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29146092</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractDataFromSpecificModelInSparseFirstOrderModelArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29146762</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593283444">sparseFOData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ComputeGainAndPhaseMarginsOfDiscreteTimeTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29198404</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitializeControlSystemDesignerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29218275</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NDDModelType</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29300659</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDomainResponsesofMIMOModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29457691</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>SummingJunctionWithVectorValuedSignalsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29728021</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PlotPassivityOverFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29777071</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GSCreatingModelsDT</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29864070</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionsFromDiscreteTimeSparseSecondOrderModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29952920</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1594146596">sparseSOD.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ComputeHankelSingularValuesOfSystemWithNearUnstablePoleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29959372</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LoopShapeAndCrossoverToleranceExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex29986917</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1467496159" component="control">tuninggoal8.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DesignPIDControllerUsingEstimatedFrequencyResponseExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex30275931</metadata>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>control</product>
+    <file component="control" timestamp="1626355176">pid_boderesponse.png</file>
+    <file component="control" timestamp="1626355176">pid_boderesponse_values.png</file>
+    <file component="control" timestamp="1626355176">pid_importdialog.png</file>
+    <file component="control" timestamp="1626355176">pid_importdialog_launch.png</file>
+    <file component="control" timestamp="1626355176">pid_informationdialog.png</file>
+    <file component="control" timestamp="1626355176">pid_stepresponse.png</file>
+    <file component="control" timestamp="1531867779">scdenginectrlpidblock.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>jetdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex30425066</metadata>
+    <thumbnail>html/jetdemo_12.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">jetdemofigures_01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>TrackingRequirementMaximumTrackingErrorVsFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex30555210</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>UpdateControllerModelWithTunedValuesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex30738989</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDelayPlantdemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex30740495</metadata>
+    <thumbnail>html/TimeDelayPlantdemo_03.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>Extract2DOFPIDCoefficientsFromEquivalentSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex30800509</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SampleRealParameterInTunableModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex31432761</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SectorBoundsAndSectorIndicesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex31565688</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1452184252">R_geometry.png</file>
+    <file component="control" timestamp="1452026923">sector_diagram2.png</file>
+    <file component="control" timestamp="1661336600">sectorExampleSystem.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractCoefficientsFromStandardForm2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex31961304</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ZeroPoleGainModelWithInheritedPropertiesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex32814717</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>AnalysisOfSystemsWithTimeDelaysExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex32965071</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>OvershootConstraintExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33090877</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ContinuousTimeSparseFirstOrderModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33103224</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1594316204">sparseFOContinuous.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>FreqDomainSpecExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex33312808</metadata>
+    <thumbnail>html/FreqDomainSpecExample_06.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">tuningreq1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>NicholsPlotAtSpecifiedFrequenciesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33572992</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DOFPDFControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex33947051</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOf2DOFPIDControllersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex34301337</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExamineAndChangePropertiesOfAnExistingModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex34408807</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1395411756">PadeApproximation1.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomNicholsPlotSettingsIndependentOfPreferencesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex34502231</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PowerStageExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex34562055</metadata>
+    <thumbnail>data/powerstage1.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="0">powerstage1.png</file>
+    <file component="control" timestamp="0">powerstage2.png</file>
+    <file component="control" timestamp="1630426635">rct_powerstage.slx</file>
+    <file component="control" timestamp="1446650535">PowerStageData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>StabilityAnalysisOfStateSpaceSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex34690244</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PeakGainwithSpecifiedAccuracyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35011564</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeLPVSSModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35013383</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674664487">lpvFcnDiscrete.m</file>
+  </demoitem>
+  <demoitem>
+    <source>PeakGainWithinSpecifiedBandExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35047298</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractCoefficientsFromParallelForm2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35248568</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CheckPassivityOfDynamicSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35250438</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MassSpringDamperSparseSecondOrderModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35321946</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593206518">sparseSOModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SolveContinuousTimeAlgebraicRiccatiEquationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35459730</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CustomizedInitialConditionsResponsePlotAtSpecifiedTimeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex35763304</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ParallelTuningExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex36063579</metadata>
+    <sandboxPublished/>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1469025034">rct_airframe1.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>AntiStabilizingSolutionOfDiscreteTimeRiccatiEquationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36348431</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DetectingReplayAttacksInDCMicrogridsUsingWatermarkingExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36651459</metadata>
+    <thumbnail>html/DetectingReplayAttacksInDCMicrogridsUsingWatermarkingExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <product>simscape</product>
+    <product>simscapeelectrical</product>
+    <file component="control" timestamp="1657213669">AttackDetectionInDCMicrogrid.slx</file>
+    <file component="control" timestamp="1657213669">DCmGAttackDetectionView.mldatx</file>
+    <file component="control" timestamp="1657213669">DCmGAttackSimulationView.mldatx</file>
+    <file component="control" timestamp="1657213669">DCmGCurrentSharingView.mldatx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyLoopOpeningForSensitivityFunctionCalculationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36911232</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1442529906">getlooptransfer3.png</file>
+  </demoitem>
+  <demoitem>
+    <source>TuneControlSystemtoBothHardandSoftRequirementsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37278297</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="1395265091">systune1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>WaterTankModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37436209</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1672824687">watertank_comp_design.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ValidateControllerByExaminingClosedLoopResponsesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37546576</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TrackStateNamesInGeneralizedStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37636607</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateTunableSecondOrderFilterExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37724421</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainDynamicsOfTunableTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37789945</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainInputAndOutputTrajectoriesToConicSectorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex37833818</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1463606516" component="control">tg_conicsector1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeMIMOFrequencyResponseDataModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38095190</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionResponsesOfMultipleSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38100528</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>KalmanTimeVaryingExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex38104165</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1506958362">ctrlKalmanNavigationExampleVehicleDiagram.png</file>
+    <file component="control" timestamp="1506958362">ctrlKalmanNavigationExampleScreenshot1.png</file>
+    <file component="control" timestamp="1506958362">ctrlKalmanNavigationExampleScreenshot2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ResponseOfStateSpaceModelToInitialConditionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38203659</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GSConnectingModels</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38449739</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">GSConnectingModels_Fig02.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig03.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig04.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig08.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig05.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig06.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig07.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig09.png</file>
+    <file component="control" timestamp="0">GSConnectingModels_Fig10.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SingleLoopFeedbackPrefilterCompensatorDesignExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex38782672</metadata>
+    <thumbnail>data/single_loop_analysisresp.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1531944393">scdspeedctrl.slx</file>
+    <file component="control" timestamp="1669044683">single_loop_analysisresp.png</file>
+    <file component="control" timestamp="1669044683">single_loop_architectureeditor.png</file>
+    <file component="control" timestamp="1669020577">single_loop_createstepresponse1.png</file>
+    <file component="control" timestamp="1669020577">single_loop_createstepresponse2.png</file>
+    <file component="control" timestamp="1529418068">single_loop_disturbanceinput.png</file>
+    <file component="control" timestamp="1529418068">single_loop_measuredoutput.png</file>
+    <file component="control" timestamp="1529418068">single_loop_pidcontroller.png</file>
+    <file component="control" timestamp="1529418068">single_loop_referencefilter.png</file>
+    <file component="control" timestamp="1529418068">single_loop_referenceinput.png</file>
+    <file component="control" timestamp="1529418068">single_loop_selectresponsetoedit.png</file>
+    <file component="control" timestamp="1529418068">single_loop_selectresponsetoeditopenloop.png</file>
+    <file component="control" timestamp="1529416435">scdspeedctrl_project.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimePIControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38977301</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ImpulseResponseOfLPVModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38995241</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673912392">lpvHCModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>IntegralMinimumGainSpecifiedAsGainValueAtSingleFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex39345042</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NetworkedControlSystemExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex39522467</metadata>
+    <thumbnail>html/NetworkedControlSystemExample_01.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1452278633">networkedcontrol.png</file>
+    <file component="control" timestamp="1630343877">ScatteringTransformation.slx</file>
+    <file component="control" timestamp="1452278633">scatter.png</file>
+    <file component="control" timestamp="1452278633">noscatter.png</file>
+    <file component="control" timestamp="1452278633">passivitythm.png</file>
+    <file component="control" timestamp="1630343877">DelayedFeedback.slx</file>
+    <file component="control" timestamp="1452278633">BeamControl.mat</file>
+    <file component="control" timestamp="1452278633">negativefb.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PlotGainAndPhaseMarginsOfTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex39722142</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PlotPassivityOfModelsWithComplexCoefficientsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex39834202</metadata>
+    <thumbnail>html/PlotPassivityOfModelsWithComplexCoefficientsExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MagnitudeOfAMIMOFrequencyResponseModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex39971485</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1579281801">frdModelMIMO.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractStateSpaceModelsFromIdentifiedModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex39998174</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1545773633">identifiedModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ImproveAccuracyofDiscretizedSystemwithTimeDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40064452</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>Convert1DOFPIDControllerTo2DOFExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40071546</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ContinuousTimeLPVSSModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40475328</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674316955">dataFcnMaglev.m</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeStandardFormPIControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40514478</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StepDisturbanceRejectionWithCustomReferenceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40691227</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GainScheduledLQGControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex40762299</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674145872">GFCN.m</file>
+    <file component="control" timestamp="1674145872">KFCN.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ContinuousTimeLTVSSModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex41288491</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674662126">ltvssDataFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>TimeResponseOfLinearTimeVaryingModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex41367435</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674662126">ltvssDataFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>DigitalMotionControlExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex41575360</metadata>
+    <thumbnail>html/DigitalMotionControlExample_05.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="0">dmcdemo1.png</file>
+    <file component="control" timestamp="0">dmcdemo2.png</file>
+    <file component="control" timestamp="0">dmcdemo3.png</file>
+    <file component="control" timestamp="1629910585">rct_dmc.slx</file>
+    <file component="control" timestamp="1629910585">rct_dmcNotch.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>PhysicalConnectionsBetweenComponentsInASparseModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex41890459</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1594070561">platePillarModel.mat</file>
+    <file component="control" timestamp="1622828622">dofData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateLPVModelFromBatchLinearizationResultsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42019204</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1673892577">watertankdat.mat</file>
+    <file component="control" timestamp="1674640048">watertankNLModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscretizeaCompensatorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42162135</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395436127" component="control">transformation1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SimulateLTIModelInSimulinkExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/SimulateLTIModelInSimulinkExample.html</file>
+    <metadata>ex42336384</metadata>
+    <thumbnail>html/SimulateLTIModelInSimulinkExample_01.png</thumbnail>
+    <hideCode/>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="control" open="open" timestamp="1630426805">LTISystemBlockSimulation.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>PassivityIndicesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42410037</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1452024318">circuit.png</file>
+    <file component="control" timestamp="1452024318">passive.png</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateCodefromTunableSurfaceExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42425984</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StabilityMarginsFromFrequencyResponseDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42456775</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1531826512">openLoopFRData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>looptuneWorkflowExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42483876</metadata>
+    <thumbnail>html/looptuneWorkflowExample_05.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">looptuneworkflow1.png</file>
+    <file component="control" timestamp="0">looptuneworkflow2.png</file>
+    <file component="control" timestamp="0">looptuneworkflow3.png</file>
+    <file component="control" timestamp="1618930818">rctExamples.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SampleDynamicsOfLTVModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42517975</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673904659">ltvssDataFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>CompareGriddedLPVModelExtrapolationMethodsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42537759</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1673892577">watertankdat.mat</file>
+    <file component="control" timestamp="1674643153">watertankLinModel.mat</file>
+    <file component="control" timestamp="1674640048">watertankNLModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseDataFRDModelWithTimeDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42802929</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395429384" component="control">frddelayexample.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ConfigureOptionsForStepResponseExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42872670</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SISOFrequencyResponseDataModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex43028911</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1624909989">wtankData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>kalmdemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex43204324</metadata>
+    <thumbnail>html/kalmdemo_03.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StateSpaceModelWithBothFixedAndTunableParametersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex43238944</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MultiModelPlantdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex43316286</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1553178511">MultiModelPlantDemoFigures_01.png</file>
+    <file component="control" timestamp="1669045055">MultiModelPlantDemoFigures_02.png</file>
+    <file component="control" timestamp="1669020777">MultiModelPlantDemoFigures_03.png</file>
+    <file component="control" timestamp="1669045055">MultiModelPlantDemoFigures_04.png</file>
+    <file component="control" timestamp="1669045055">MultiModelPlantDemoFigures_05.png</file>
+  </demoitem>
+  <demoitem>
+    <source>MaximumLoopGainRequirementExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex43727914</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ResponsesOfSystemWith2DOFPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex44301199</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InputPassivityInSpecifiedFrequencyRangesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex44558127</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeAndFrequencyResponseOfSecondOrderSparseModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex44807549</metadata>
+    <thumbnail>html/TimeAndFrequencyResponseOfSecondOrderSparseModelExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593200885">tuningForkData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomizedSigmaPlotOfTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex44862551</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionsResponsePlotExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45001628</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MultiChannelAnalysisPointsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45089446</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1395765933">loopswitch1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertStateSpaceModelToZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45250085</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LPVModelOfBouncingBallExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45387728</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674335874">BouncingBallDF.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ConfigureOptionsForImpulseResponseExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45666993</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateTunableLowPassFilterExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45668674</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateOptionsSetforsystuneExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45891343</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeSecondOrderSparseStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45952047</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1595008248">discreteSOSparse.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>TimeResponseOfLPVSSModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45975488</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673208664">dataFcnMaglev.m</file>
+  </demoitem>
+  <demoitem>
+    <source>TunableModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex46336156</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">tunablemodel1.png</file>
+    <file component="control" timestamp="0">tunablemodel2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>WaterTankSimulinkExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex46879626</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1673372794">nonlinearsimulation.png</file>
+    <file component="control" timestamp="1452212297">op_watertank_schematic.gif</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui2.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui3.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui4.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui5.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui6.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui7.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui8.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui9.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui10.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui11.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui12.png</file>
+    <file component="control" timestamp="1673372794">passivity_tank_gui13.png</file>
+    <file component="control" timestamp="1452212297">vsp.png</file>
+    <file component="control" timestamp="1496259043">cst_watertank_comp_design.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOfStandardFormPIDControllersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex46920041</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeGainAndPhaseMarginsUsingBodeParametersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47084415</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1508443590" component="control">openLoopFRD.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOfZeroPoleGainModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47106774</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SampleMultipleValuesInTunableModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47179913</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LQRControlForInvertedPendulumModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47436054</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1552430594">pendulumCartModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>BalancedReductionOfStableSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47442617</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ObservabilityOfSISOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47531285</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>cascadepiddemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47666193</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">cascadepiddemoscheme.png</file>
+    <file component="control" timestamp="0">cascadepiddemoscheme1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>StateSpaceModelWithInheritedPropertiesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47709312</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SampleLPVDynamicsOverGridValuesSpecifiedUsingStructuresExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47797637</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673912392">lpvHCModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>SingularValuePlotOfDynamicSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47894327</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RIndexInFrequencyBandForSystemWithComplexDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48026181</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1626396576">dataSysQ.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyOfPeakGainForSystemWithComplexDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48043114</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>BalancedTruncationModelReductionInTheLiveEditorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48165216</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1561503451">build.mat</file>
+    <file component="control" timestamp="1566420001" open="open">ReduceModelOrderLiveEditorTask.mlx</file>
+  </demoitem>
+  <demoitem>
+    <source>DistSensitivityAtPlantInputExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48489884</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1482530665" component="control">tuninggoalsens1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DieselEngineExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex48689346</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control">drct_diesel_BOOST_SignalEditorData.mat</file>
+    <file component="control">drct_diesel_EGMRF_SignalEditorData.mat</file>
+    <file component="control" timestamp="1573666520">diesel1.png</file>
+    <file component="control" timestamp="1573666520">diesel2.png</file>
+    <file component="control" timestamp="1573666520">diesel3.png</file>
+    <file component="control" timestamp="1629910411">rct_diesel.slx</file>
+    <file component="control" timestamp="1446649561">DieselEngine.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DetectAttackInCyberPhysicalSystemsDynamicWatermarkingExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48723177</metadata>
+    <thumbnail>html/DetectAttackInCyberPhysicalSystemsDynamicWatermarkingExample_04.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <product>simscapeelectrical</product>
+    <product>simscape</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1674670526">DynamicWatermarkingInDCMicroGrid.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>FindSectorCrossoverFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48817495</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1452026923" component="control">sector_diagram2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscretizeContinuousTimeStandardFormPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49096153</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseOfSISOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49277991</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PIDControllerDesignAtTheCommandLineExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49594216</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ClosedLoopPoleLocationsForASetOfFeedbackGainValuesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49758079</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeStableFactorizationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex49937364</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PolePlacementUsingComplexPolesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex50235995</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NDDRootSensitivity</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex50258971</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NDDModelInterconnections</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex50278186</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">NDDModelInterconnections_Fig01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>EvaluateRequirementsForTunedSystemExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex50709119</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1496963694">rct_airframe2.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOfPIDControllersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex50782910</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PDFControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex51094077</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MIMOFeedbackLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex51363016</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395434378" component="control">interconnections15.png</file>
+    <file timestamp="1395434378" component="control">interconnections16.png</file>
+    <file timestamp="1395434378" component="control">MIMOfeedback.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>concorde_demo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex51656451</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="0">concordedemo1.png</file>
+    <file timestamp="1446643794" component="control">ConcordeData.mat</file>
+    <file timestamp="1495716905" component="control">rct_concorde.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SimulinkTuningExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex51713417</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="0">enginedemo1.png</file>
+    <file timestamp="1509640429" component="control">rct_engine_speed.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateSquareWaveExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52065711</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MIMOStaticGainSparseFirstOrderStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52189219</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ModelArrayWithVariationsInTwoParametersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52316617</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SummingJunctionWithScalarValuedSignalsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52552493</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PoleandZeroLocationsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52555249</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignPIDControllerUsingSimulatedIODataExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex53240014</metadata>
+    <thumbnail>html/DesignPIDControllerUsingSimulatedIODataExample_01.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simscapeelectrical</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1626370919">AddPlot_ControllerEffort.png</file>
+    <file component="control" timestamp="1626370919">IdentifyNewPlantMenu.png</file>
+    <file component="control" timestamp="1626370919">LinearizationFailed.png</file>
+    <file component="control" timestamp="1626370919">PIDTunerFinished.png</file>
+    <file component="control" timestamp="1626370919">PIDTunerStart.png</file>
+    <file component="control" timestamp="1626370919">PlantIdentificationInteractive1.png</file>
+    <file component="control" timestamp="1626370919">PlantIdentificationInteractive2.png</file>
+    <file component="control" timestamp="1626370919">PlantIdentificationInteractive3.png</file>
+    <file component="control" timestamp="1626370919">PlantIdentificationStart.png</file>
+    <file component="control" timestamp="1626370919">SimulateDataFinished.png</file>
+    <file component="control" timestamp="1626370919">SimulateDataMenu.png</file>
+    <file component="control" timestamp="1626370919">SimulateDataSetup.png</file>
+    <file component="control" timestamp="1626370919">StepInputSpecification.png</file>
+    <file component="control" timestamp="1529419171">TunedPID_Voltage.png</file>
+    <file component="control" timestamp="1533144675">scdbuckconverter.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>HankelSingularValuePlotWithNearUnstablePoleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex53607504</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertTimeDelayInDiscreteTimeModelToFactorsOf1zExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex53755122</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395412973" component="control">delay2z1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>LQRControlUsingStateSpaceMatricesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex54091453</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1552415408">aircraftPitchModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateTransferFunctionModelUsingRationalExpressionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex54231653</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CustomSigmaPlotSettingsIndependentOfPreferencesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex54510335</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NegativeFeedbackLoopWithPlantAndControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex54677968</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemTuner_LinearActuatorExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex55210756</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simscapeelectrical</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI2.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI3.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI4.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI5.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI6.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI7.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI8.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI9.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI10.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI11.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI12.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI13.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI14.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI16.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI17.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI18.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI19.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexample4.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexample5.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI20.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI21.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI22.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI23.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI24.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI25.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexample6.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexample7.png</file>
+    <file component="control" timestamp="1629910165">rct_linact.slx</file>
+    <file component="control" timestamp="1555607617">linactdemo1.png</file>
+    <file component="control" timestamp="1555607617">linactdemo2.png</file>
+    <file component="control" timestamp="1673371824">linactdemo3.png</file>
+    <file component="control" timestamp="1673371824">controlsystemtunerapp_linactexampleGUI.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ScalarDynamicSystemConstraintExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex55251500</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1395674396" component="control">imp2expp1.gif</file>
+  </demoitem>
+  <demoitem>
+    <source>PolePlacementPrecisionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex55345096</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StabilityMarginsOfAMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex55827081</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1531668432">mimoStateSpaceModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ApproximateAndDiscretizeTimeDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex56604529</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GenerateInputForSimulatingMultiInputSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex56862957</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ObtainStateSpaceDataFromGriddedModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex56975643</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674661615">watertankLPVModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>PlantWithUnmeasuredOutputsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57184736</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PositiveFeedbackLoopWithPlantAndControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57665381</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StaticGainMIMOTransferFunctionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57727135</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ModifyTestValueForDataFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57863256</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673208664">dataFcnMaglev.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ObtainSingularValueDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57883541</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NicholsPlotOfSeveralDynamicSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex57889736</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlDesignForWindTurbineExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58110215</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <product>optim</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1674348638">WindCpData.mat</file>
+    <file component="control" timestamp="1674348638">WindTurbineOpenLoop.slx</file>
+    <file component="control" timestamp="1674348638">WindTurbineClosedLoop.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>StepResponseRequirementWithSpecifiedToleranceExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58294443</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ResponseOfParametricAndNonparametricModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58466972</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>UnityGainCrossoverExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58716823</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>opampdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex58773813</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">opampdemofigures_01.png</file>
+    <file component="control" timestamp="0">opampdemofigures_02.png</file>
+    <file component="control" timestamp="0">opampdemofigures_03.png</file>
+    <file component="control" timestamp="0">opampdemofigures_04.png</file>
+    <file component="control" timestamp="0">opampdemofigures_05.png</file>
+    <file component="control" timestamp="0">opampdemofigures_06.png</file>
+  </demoitem>
+  <demoitem>
+    <source>GetCurrentValueOfGeneralizedModelByModelConversionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58785958</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeZeroPoleGainModelUsingRationalExpressionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex58929945</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>isapiddemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex59326537</metadata>
+    <thumbnail>html/isapiddemo_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">isapiddemo6.png</file>
+    <file component="control" timestamp="1626382607">piddemo1.png</file>
+    <file component="control" timestamp="1626382607">piddemo1a.png</file>
+    <file component="control" timestamp="1626382607">piddemo1b.png</file>
+    <file component="control" timestamp="1626382607">piddemo2.png</file>
+    <file component="control" timestamp="1626382607">piddemo3.png</file>
+    <file component="control" timestamp="1626382607">piddemo4.png</file>
+    <file component="control" timestamp="1626382607">piddemo5.png</file>
+  </demoitem>
+  <demoitem>
+    <source>InteractivelyCreateBodePlotInTheLiveEditorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex59345119</metadata>
+    <thumbnail>html/InteractivelyCreateBodePlotInTheLiveEditorExample_02.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" open="open" timestamp="1662379702">InteractiveBodePlotExample.mlx</file>
+  </demoitem>
+  <demoitem>
+    <source>PIDController2DOFStdNamedInputsAndOutputExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex59476130</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LinearizeSimulinkModelToASparseSecondOrderModelObjectExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex59667249</metadata>
+    <thumbnail>html/LinearizeSimulinkModelToASparseSecondOrderModelObjectExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1594822569">linData.mat</file>
+    <file component="control" timestamp="1619542955">Linearize_Simulink_Model.png</file>
+    <file component="control" timestamp="1619542955">sparseSimulinkModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertSparseSecondOrderModelToDenseRepresentationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex59718139</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593449016">sparseSOFull.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SpectralFactorizationFromFactoredFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex59804226</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SectorPlotWithMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex60636232</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1661336600">sectorExampleSystem.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SpectralFactorizationOfSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex60653808</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ZeroPoleGainModelWithInputAndOutputDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex60893228</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ReferenceTrackingOfDCMotorWithParameterVariationsExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex61938471</metadata>
+    <thumbnail>data/DCMotorImage.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1529420345">DCMotorImage.png</file>
+    <file component="control" timestamp="1674574374">GraphicalEditor.png</file>
+    <file component="control" timestamp="1674574374">GraphicalEditor1.png</file>
+    <file component="control" timestamp="1529420345">scdDCMotor.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>GSCreatingModelsCT</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex62406409</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MIMOFrequencyResponseDataModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex62685255</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673455846">AnalyzerDataMIMO.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateArrayOfRandomModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63190820</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PDF2DOFStdControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63209922</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ContinuoustimeMIMOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63214744</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SingularValuesOfMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63478357</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitializeControlSystemDesignerUsingArrayOfPlantModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63510223</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CompareSingularValuePlotsOfSeveralDynamicSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63566304</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GSSpecifyingDelays</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex63719485</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1544618060">GSSpecifyingDelays_01.png</file>
+    <file component="control" timestamp="1544618060">GSSpecifyingDelays_02.png</file>
+    <file component="control" timestamp="1544618060">GSSpecifyingDelays_03.png</file>
+    <file component="control" timestamp="1544618060">GSSpecifyingDelays_04.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ApproximateNonlinearAircraftPitchDynamicsUsingLPVModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63770708</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1674339335">scdairframeClosedLoop.slx</file>
+    <file component="control" timestamp="1674339335">scdairframeOpenLoop.slx</file>
+    <file component="control" timestamp="1673620642">aerospace.slx</file>
+    <file component="control" timestamp="1674339335">scdairframeLPVsimdata.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>WeightedPassivityAndInputPassivityExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63904211</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StateSpaceModelWithInputAndOutputDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex63928724</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PIDControllerWithNamedInputAndOutputExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex64051516</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SecondOrderTransferFunctionFromDampingAndFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex64134496</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TuneMIMOControlSystemforSpecifiedBandwidthExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex64535201</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="1395091222">looptune2a.png</file>
+    <file component="control" timestamp="1395092314">looptune2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ContinuousTimeZeroPoleGainModelUsingRationalExpressionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65140299</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NicholsPlotWithSpecifiedLineAttributesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65322197</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GainScheduledAutopilotExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex65529978</metadata>
+    <thumbnail>html/GainScheduledAutopilotExample_08.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1500666859">gsautopilot1.png</file>
+    <file component="control" timestamp="1446597932">AirframeData.m</file>
+    <file component="control" timestamp="1629915453">rct_airframeGS.slx</file>
+    <file component="control" timestamp="1629915453">rct_airframeTRIM.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SensitivityOfControlSystemToTimeDelaysExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65593476</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PlotSectorIndexOfModelWithComplexCoefficientsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65642658</metadata>
+    <thumbnail>html/PlotSectorIndexOfModelWithComplexCoefficientsExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1661337642">sectorExampleSystem.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractCoefficientsFromParallelFormPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65820344</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDelayOfIntegerMultipleOfSampleTimeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex65922729</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CustomizedSectorPlotOfComplexCoefficientModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66009910</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CascadedMultiloopFeedbackDesignExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66210182</metadata>
+    <thumbnail>html/CascadedMultiloopFeedbackDesignExample_12.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1529351568">scd_aero_guid_dat.m</file>
+    <file component="control" timestamp="1531944027">scdairframectrl.slx</file>
+    <file component="control" timestamp="1625046463">scdairframectrl_project.mat</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>HelicopterExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex66229979</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1484175703">helico1.png</file>
+    <file timestamp="1446650070" component="control">helico.jpg</file>
+    <file timestamp="1531238510" component="control">rct_helico.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>AntiStabilizingSolutionOfAlgebraicRiccatiEquationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66342300</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SolveDiscreteTimeAlgebraicRiccatiEquationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66396333</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>HL20MatlabWorkflowExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66509434</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1498323729" component="control">csthl20_TrimData.mat</file>
+    <file timestamp="1498323729" component="control">HL20SISOArch.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PeakGainofTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66593332</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NicholsResponseWithNicholsGridLinesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66707409</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeTransferFunctionWithTimeDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66813975</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>VaryingTuningGoalExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex66852479</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>BalancedRealizationOfUnstableSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67002283</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TitleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67102231</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>VisualizeTuningRequirementAsFunctionOfFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67228939</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateOptionsSetforlooptuneExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67406102</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyDifferentLoopShapesForMultipleLoopsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67430781</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1395265091">systune1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SeismicControlExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67797036</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">amd1.png</file>
+    <file component="control" timestamp="0">amd2.png</file>
+    <file timestamp="1446660563" component="control">ThreeStoryData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>QueryModelCharacteristicsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex68321175</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1440186008" component="control">queryexample.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>MADelayResponse</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex69064656</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">smith_01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOfFrequencyResponseDataModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex69269454</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>BeamVibrationControlExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex69442307</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1452185348" component="control">beam.png</file>
+    <file timestamp="1452185348" component="control">positive.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DependenceOfStateSpaceMatricesOnParametersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex69723942</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>HiddenCouplingsInGainScheduledControlExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex69995460</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674316711">hcKinFCN.m</file>
+    <file component="control" timestamp="1674316711">hcKoutFCN.m</file>
+    <file component="control" timestamp="1674316711">lpvHCModel.m</file>
+    <file component="control" timestamp="1674316711">HiddenCouplings.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscretizeModelInTheLiveEditorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70188687</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" open="open" timestamp="1565277732">ConvertModelRateLiveEditorTask.mlx</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractCoefficientsFrom2DOFPIControllerArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70294471</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainClosedLoopDynamicsOfSpecifiedLoopOfSystemToTuneExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70346658</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1468426459">tuninggoal5b.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DesignKalmanFilterForSISOPlantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70370771</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>QueryArraySizeAndCharacteristicsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70539627</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1440186008">queryexample.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>GetTestValueLPVModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70673622</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674316955">dataFcnMaglev.m</file>
+  </demoitem>
+  <demoitem>
+    <source>PIDControllerTuningInSimulinkExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex70685703</metadata>
+    <thumbnail>data/pid_initialtuner.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1529352696">pid_analysisresp.png</file>
+    <file component="control" timestamp="1529352696">pid_blockdialog.png</file>
+    <file component="control" timestamp="1529352696">pid_finalextendedtuner.png</file>
+    <file component="control" timestamp="1529352696">pid_finalextendedtuner_params.png</file>
+    <file component="control" timestamp="1529352696">pid_finaltuner.png</file>
+    <file component="control" timestamp="1529352696">pid_finaltuner_params.png</file>
+    <file component="control" timestamp="1529352696">pid_initialextendedtuner.png</file>
+    <file component="control" timestamp="1529352696">pid_initialtuner.png</file>
+    <file component="control" timestamp="1529352696">pid_newtuner.png</file>
+    <file component="control" timestamp="1529352696">pid_updatedblockdialog.png</file>
+    <file component="control" timestamp="1530624788">scdspeedctrlpidblock.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SampleTunableModelOverGridOfValuesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70736006</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MapInitialConditionsFromContinuousTimeModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex70851863</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1594145473">sparseSOC.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>HL20AttitudeControlMIMOExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex70985523</metadata>
+    <product>aeroblks</product>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file timestamp="1498776959" component="control">HL20MIMOArch.png</file>
+    <file timestamp="1498776959" component="control">HL20MIMOResponses.png</file>
+    <file component="control" timestamp="1498775971">csthl20_BusData.mat</file>
+    <file component="control" timestamp="1514499990">csthl20_control.slx</file>
+    <file component="control" timestamp="1498776587">csthl20_GainData.mat</file>
+    <file component="control" timestamp="1514499990">csthl20_lib.slx</file>
+    <file component="control" timestamp="1498323729">csthl20_TrimData.mat</file>
+    <file component="control" timestamp="1498776587">HL20recapPart2.m</file>
+  </demoitem>
+  <demoitem>
+    <source>MinimumLoopGainAsConstraintOnSensitivityFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex71175027</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1468504664" component="control">minloopgain1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseDataModelWithNegativeFrequenciesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex71433298</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeMIMOZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex71715631</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NonlinearStateEstimationOfADegradingBatterySystemExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex71853327</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simscape</product>
+    <product>simulink</product>
+    <product>stateflow</product>
+    <file component="control" timestamp="1561475465">BatteryExampleUKF.slx</file>
+    <file component="control">dBatteryExampleUKF_AmbientTempSignalEditorData.mat</file>
+    <file component="control" timestamp="1484236996">BatteryParameters.mat</file>
+    <file component="control" timestamp="1484236996">C_table.ssc</file>
+    <file component="control" timestamp="1484236996">Em_table.ssc</file>
+    <file component="control" timestamp="1484236996">R_table.ssc</file>
+    <file component="control" timestamp="1484236996">batteryDischargeChargeCurve.jpg</file>
+    <file component="control" timestamp="1484236996">batteryEquivalentCircuit.jpg</file>
+    <file component="control" timestamp="1484236996">batteryMdl.jpg</file>
+    <file component="control" timestamp="1484236996">blockParametersUKF.jpg</file>
+    <file component="control" timestamp="1484236996">blockSettingKF.jpg</file>
+    <file component="control" timestamp="1484236996">measurementEqn.jpg</file>
+    <file component="control" timestamp="1484236996">stateEqn.jpg</file>
+  </demoitem>
+  <demoitem>
+    <source>DesignFamilyOfPIDControllersForMultipleOperatingPointsExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex72715204</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1531869193">scdcstrctrlplant.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ConcatenateSISOTFIntoMIMOTransferFunctionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex72750030</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemTuner_ActiveSuspensionQuarterCarExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex72940340</metadata>
+    <thumbnail>data/controlsystemtunerapp_suspensionGUI2.png</thumbnail>
+    <product>simscape</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI1.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI2.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI3.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI4.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI5.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI6.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI7.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI8.png</file>
+    <file component="control" timestamp="1673369880">controlsystemtunerapp_suspensionGUI9.png</file>
+    <file component="control" timestamp="1578415163">controlsystemtunerapp_suspensionGUI10.png</file>
+    <file component="control" timestamp="1578088742">SessionFileForActiveSuspensionQuarterCar.mat</file>
+    <file component="control" timestamp="1629909637">rct_suspension.slx</file>
+    <file component="control" timestamp="1453334249">suspension01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ControllabilityOfSISOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73288243</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RigidPhysicalInterfacingExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73554794</metadata>
+    <thumbnail>html/RigidPhysicalInterfacingExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1594070561">platePillarModel.mat</file>
+    <file component="control" timestamp="1624546344">dofData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>RootLocusPlotOfMultipleDynamicSystemModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73643029</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1576088449">sisoModels.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeLTVSSModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73755997</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674662486">ltvFcnDiscrete.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemWithMultiChannelAnalysisPointsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex73865335</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1398351683" component="control">interconnections12.png</file>
+    <file timestamp="1398979237" component="control">interconnections12b.png</file>
+    <file timestamp="1398979237" component="control">analysispoint3a.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertStateSpaceModelToFrequencyResponseDataModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74157754</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeTransferFunctionModelUsingRationalExpressionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74375398</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionResponsePlotOfMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74384856</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PassivityAndPassivityIndicesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74501332</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1452132650">feedforward.png</file>
+    <file component="control" timestamp="1452132650">feedback.png</file>
+    <file component="control" timestamp="1452132650">outputfeedback.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConnectSpecificInputsAndOutputsOfStateSpaceModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74511525</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencylimitedHankelSingularValuesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74565968</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1449622949">modeselect.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseDataModelWithInheritedPropertiesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex75239764</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDiscreteTimeSystemtoContinuousTimeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex75261297</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ClosedLoopPolesAndFeedbackGainValuesUsingRootLocusExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex75407951</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignKalmanFilterForMIMOPlantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex75476239</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>StabilityMarginsOfModelsInAnArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex75978464</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1522685592">invertedPendulumArray.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SpecConfigExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex76316966</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyDependentAttenuationProfileExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex76411444</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SISOTransferFunctionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex76447009</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ModeSelectionAtTheCommandLineExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex76995037</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1449622949" component="control">modeselect.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>resampledemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex77001908</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1587424738">resample_01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDynamicSystemToParallelFormPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77054127</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractZeroPoleGainModelsFromIdentifiedModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77437640</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1545773633">identifiedModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SetScaleForYAxisInHSVPlotExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77442926</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>GetDelayFreeStateSpaceModelandInternalDelayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77551768</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1442530937" component="control">internaldelay1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertFromOneModelTypeToAnotherExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77558096</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MIMOStaticGainSparseSecondOrderStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77702151</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConstrainTransientResponseToCustomInputSignalExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77849692</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MIMOMarginRequirementInFrequencyBandExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77990553</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyAdditionalLoopOpeningforComplementarySensitivityFExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78145833</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1442529906" component="control">getlooptransfer3.png</file>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTime2DOFPIControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78193589</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PassivitySeriesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78519394</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1452032160" component="control">series.png</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomSingularValuePlotOfMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78543132</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TransRespRequirWithSpecInputTypeAndTolExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78571887</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TuneSimulinkBlocksUsingCompensatorEditorExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex78598404</metadata>
+    <thumbnail>data/parametereditor.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1669020286">parametereditor.png</file>
+    <file component="control" timestamp="1657115316">pidcontroller.png</file>
+    <file component="control" timestamp="1669020286">polezeroeditor.png</file>
+    <file component="control" timestamp="1657115316">scdspeedctrl.slx</file>
+    <file component="control" timestamp="1657115316">scdspeedctrl_project.mat</file>
+    <file component="control" timestamp="1669020286">compeditor_analysisresp.png</file>
+  </demoitem>
+  <demoitem>
+    <source>UpsampleDiscreteTimeSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78655656</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ReduceModelOrderUsingModelReducerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78746951</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1450730270">ReduceModelOrderUsingModelReducerExample1.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample10.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample2.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample3.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample4.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample5.png</file>
+    <file component="control" timestamp="1450730270">ReduceModelOrderUsingModelReducerExample6.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample7.png</file>
+    <file component="control" timestamp="1449852405">ReduceModelOrderUsingModelReducerExample8.png</file>
+    <file component="control" timestamp="1610643958">building.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>HermitianTransposeOfFrequencyResponseExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78814974</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractStandard2DOFPIDCoefficientsFromSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79068289</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemModelingWithModelObjectsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79454000</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1385568133" component="control">architecture.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ClosedLoopResponsesofControlSystemModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79745069</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1442610688" component="control">getiotransfer1.png</file>
+    <file timestamp="1442610958" component="control">tuninggoal6.png</file>
+  </demoitem>
+  <demoitem>
+    <source>diskdemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex80174185</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">diskdemofigures_01.png</file>
+    <file component="control" timestamp="0">diskdemofigures_02.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertPIDControllerFromStandardToParallelFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex80538269</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PassivityIndexAndFrequencyForSystemsWithComplexDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex80629987</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1626115090">compCoeffModel.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>UncertainMatrixAlgebraicConstraintExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex80735906</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ArrayOf2DOFStdPIDControllersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex80842405</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>systuneWorkflowExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex80941479</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="0">systuneworkflow1.png</file>
+    <file component="control" timestamp="0">systuneworkflow2.png</file>
+    <file component="control" timestamp="1450378481">rctExamples.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>RandomSamplesOfRealParametersExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex81112321</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>robust</product>
+  </demoitem>
+  <demoitem>
+    <source>Convert2DOFPIDControllerFromStandardToParallelFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex81355747</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TunePIDControllerReferenceTrackingDisturbanceRejectionExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex81502946</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file timestamp="1416953192" component="control">pidtuner6.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ResponsefromInitialConditionsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex81943277</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateMIMOTransferFunctionModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex82003403</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NicholsResponseMagnitudeAndPhaseDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex82070114</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>HL20AttitudeControlSISOExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex82276432</metadata>
+    <product>aeroblks</product>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1498776587">HL20EMLCode.png</file>
+    <file component="control" timestamp="1498776587">HL20SISOResponses.png</file>
+    <file component="control" timestamp="1498776587">HL20recapPart2.m</file>
+    <file component="control" timestamp="1498776587">csthl20_GainData.mat</file>
+    <file component="control" timestamp="1498775971">csthl20_BusData.mat</file>
+    <file component="control" timestamp="1514499990">csthl20_control.slx</file>
+    <file component="control" timestamp="1514499990">csthl20_lib.slx</file>
+    <file component="control" timestamp="1498323729">csthl20_TrimData.mat</file>
+    <file component="control" timestamp="1498323729">HL20SISOArch.png</file>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionResponseDataWithSpecifiedTimeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex82527791</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateContinuousTimeStandardFormPDFControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex82974009</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscretizeAContinuousTimePIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex82975736</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDiscreteDynamicSystemToStandardPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83010743</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FeedbackLoopBasedOnIONamesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83215646</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1557782569">mimoPlantAndController.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>margindemo</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex83476677</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1523628454">margin_01.png</file>
+    <file component="control" timestamp="1523628454">margin_03.png</file>
+    <file component="control" timestamp="1523628454">margin_02.png</file>
+    <file component="control" timestamp="1523628454">margin_04.png</file>
+  </demoitem>
+  <demoitem>
+    <source>TimeDomainResponsesofMultipleModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83484855</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>OpenLoopTransferFunctionAtAnalysisPointExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83663594</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1456516085" component="control">getlooptransfer2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>PassivityFeedbackExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83784129</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1452031227" component="control">feedback.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemWithMultipleAnalysisPointsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex83929027</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file timestamp="1415401453" component="control">interconnections2ap.png</file>
+  </demoitem>
+  <demoitem>
+    <source>HL20RateControlExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex84523522</metadata>
+    <product>aeroblks</product>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1498775971">HL20Variants.png</file>
+    <file component="control" timestamp="1498775971">csthl20_BusData.mat</file>
+    <file component="control" timestamp="1608810631">csthl20_control.slx</file>
+    <file component="control" timestamp="1500040711">csthl20_lib.slx</file>
+    <file component="control" timestamp="1498323729">csthl20_TrimData.mat</file>
+    <file component="control" timestamp="1498323729">HL20SISOArch.png</file>
+    <file component="control" timestamp="1499894053">aeroblk_HL20pic.jpg</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomInitialConditionPlotOfMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex84668758</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SpecifyInputNamesForZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex84679570</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>sisoinitdemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex84749671</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1612868319">mycustomcontrolsysdesignerfcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ApproximateModelwithUnstableorNearUnstablePoleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85127732</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1395780300">reduce.mat</file>
+    <file component="control" timestamp="1449525339">mr_baltrunc_options1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>MultiLoopTuningExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex85239291</metadata>
+    <thumbnail>html/MultiLoopTuningExample_01.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1484175969">multilooptuning1.png</file>
+    <file component="control" timestamp="1629981809">rct_cascade.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>CheckSystemObservabilityExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85364324</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ChooseaLowOrderApproximationMethodExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85538586</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1395782268">transformation23.png</file>
+    <file component="control" timestamp="1449524959">mr_baltrunc5.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ThirdOrderPadxe9ApproximationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85734567</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>PadeApproximationOfContinuousTimeOpenLoopModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex85964472</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyofPeakGainExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86020667</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemWithTunableComponentsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86053697</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1385568133">architecture.png</file>
+  </demoitem>
+  <demoitem>
+    <source>respdemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86077924</metadata>
+    <thumbnail>html/respdemo_04.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="0">response_01.png</file>
+    <file component="control" timestamp="0">response_02.png</file>
+    <file component="control" timestamp="0">response_03.png</file>
+    <file component="control" timestamp="0">response_04.png</file>
+  </demoitem>
+  <demoitem>
+    <source>NDDFeedbackLoops</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86194813</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1587425648">NDDFeedbackLoops_Fig01.png</file>
+  </demoitem>
+  <demoitem>
+    <source>TransferFunctionModelWithInheritedPropertiesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86407029</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NicholsPlotOfModelWithComplexCoefficientsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86463448</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DesignInternalModelControllerForChemicalReactorPlantExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86600384</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDynamicSystemTo2DOFParallelFormPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86644930</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscreteTimeMIMOStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex87116385</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateDiscreteTimeStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex87224540</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SingularValuePlotOfModelWithComplexCoefficientsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex87317952</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DisplayBlockValuesOfTunedControlSystemModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex87643336</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file timestamp="1458238753" component="control">showtunable1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConicSectorGoalExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex88233754</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemTuner_HelicopterExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex88744552</metadata>
+    <thumbnail>data/controlsystemtunerapp_helicoGUI14.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI2.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI3.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI4.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI5.png</file>
+    <file component="control" timestamp="1482161072">controlsystemtunerapp_helico1.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI7.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI7a.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI8.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI9.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI10.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI11.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI12.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI14.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI15.png</file>
+    <file component="control" timestamp="1673370968">controlsystemtunerapp_helicoGUI13.png</file>
+    <file component="control" timestamp="1482161072">controlsystemtunerapp_helicoGUI18.png</file>
+    <file component="control" timestamp="1629909822">rct_helico.slx</file>
+    <file component="control" timestamp="1446650070">helico.jpg</file>
+  </demoitem>
+  <demoitem>
+    <source>ExplicitRealizationOfDescriptorStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex88791734</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NegativeFeedbackOpenLoopTransferFunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89369249</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1456516085">getlooptransfer2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConnectSpecificInputsAndOutputsInAFeedbackLoopExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89401174</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LPVSSApproximationOfBoostConverterModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89414791</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simscape</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1674338598">BidirectionalBoostVariants.mat</file>
+    <file component="control" timestamp="1674338598">BoostConverterExampleModel.slx</file>
+    <file component="control" timestamp="1674338598">BoostConverterLPVData.mat</file>
+    <file component="control" timestamp="1674338598">BoostConverterLPVModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractContinuousTimeSparseFirstOrderModelDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89450661</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593283444">sparseFOData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>DecomposeModelIntoFastAndSlowDynamicsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89464213</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>RegulatePressureInDrumBoilerExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex89637289</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1529422762">Boiler_Demo.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>LPVModelOfEngineThrottleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex89763534</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674334665">throttleLPV.m</file>
+    <file component="control" timestamp="1674334665">ThrottleInputData.mat</file>
+    <file component="control" timestamp="1674334665">throttleNLModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ExtractContinuousTimeSparseSecondOrderModelDataExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex90073423</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1593278813">sparseSOModels.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomizeSigmaPlotUsingPlotHandleExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex90170594</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InvertedPendulumExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex90355991</metadata>
+    <thumbnail>data/pendulum1.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simscapemultibody</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control">drct_pendulum_SignalEditorData.mat</file>
+    <file component="control" timestamp="1476991888">pendulum1.png</file>
+    <file component="control" timestamp="1476991888">pendulum2.png</file>
+    <file component="control" timestamp="1476991888">pendulum3.gif</file>
+    <file component="control" timestamp="1629981664">rct_pendulum.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ConcatenateSISOModelsIntoAMIMOZeroPoleGainModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91065170</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SISOMarginReqEvalWithAddLoopOpeningExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91319635</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1468426459">tuninggoal5b.png</file>
+  </demoitem>
+  <demoitem>
+    <source>UpdateSystemDataInResponsePlotExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91500799</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>FrequencyResponseofaMIMOSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91548239</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>LPVSSModelOfMagneticLevitationSystemExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91549361</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674316955">dataFcnMaglev.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ComplementarySensitivityFunctionataLocationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91686493</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1395765933">loopswitch1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>MarkUnneededModelsinArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91944187</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDistillationColumnProblemforTuningWithsystuneExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex92141446</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1395091222">looptune2a.png</file>
+    <file timestamp="1395261386" component="control">looptunesetup1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SVOfIdentifiedParametricAndNonparametricModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex92179575</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DOFPIDControllerWithNamedInputsAndOutputExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex92865327</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LinearAnalysisOfATuningForkExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex92884485</metadata>
+    <thumbnail>html/LinearAnalysisOfATuningForkExample_04.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>control</product>
+    <product>pde</product>
+    <file component="control" timestamp="1624546746">TuningFork.stl</file>
+  </demoitem>
+  <demoitem>
+    <source>OpenLoopSpecExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex93002363</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file component="control" timestamp="1555688922">tuningreq2.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SecOrdStepRespWithKnownNatPeriodAndOvershootExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex93323882</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>LinearActuatorExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex93343132</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <product>simscapeelectrical</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1555607617">linactdemo1.png</file>
+    <file component="control" timestamp="1555607617">linactdemo2.png</file>
+    <file component="control" timestamp="1555607617">linactdemo3.png</file>
+    <file component="control" timestamp="1555607617">linactdemo4.png</file>
+    <file component="control" timestamp="1555607617">linactdemo5.png</file>
+    <file component="control" timestamp="1555607617">linactdemo6.png</file>
+    <file component="control" timestamp="1555607617">linactdemo7.png</file>
+    <file component="control" timestamp="1555607617">rct_linact.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>FeedbackLoopWithAnalysisPointExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex93557479</metadata>
+    <product>control</product>
+    <product>matlab</product>
+    <file timestamp="1414791611" component="control">analysispoint2.png</file>
+    <file timestamp="1414791611" component="control">analysispoint1.png</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateTransferFunctionWithOneInputAndTwoOutputsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex93582586</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ControlDesignUsingStateSpaceModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex94031572</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertDynamicSystemToStandardFormPIDControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex94193407</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NonlinearStateEstimationUsingUnscentedKalmanFilterExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex94619676</metadata>
+    <thumbnail>html/NonlinearStateEstimationUsingUnscentedKalmanFilterExample_04.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>signal</product>
+    <file timestamp="1466798763" component="control">vdp1.m</file>
+    <file timestamp="1500664404" component="control">vdpExamplePFMeasurementLikelihoodFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertPIDControllerFromParallelToStandardFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex94735558</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>TimeDomainResponsesofDiscreteTimeModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex94909318</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeFrequencyLimitedGramianExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex95334235</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CheckInputAndOutputPassivityExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex95718705</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DiscretetimeTransferFunctionInDSPFormatWithNamedInputsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex95764681</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExaminePerformanceOfTunedControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex95796448</metadata>
+    <product>control</product>
+    <product>matlab</product>
+  </demoitem>
+  <demoitem>
+    <source>NumericValuesofTimeDomainSystemCharacteristicsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex95848590</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>AutopilotExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex95907900</metadata>
+    <thumbnail>html/AutopilotExample_09.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="1629909382">rct_airframe1.slx</file>
+    <file component="control" timestamp="1629909382">rct_airframe2.slx</file>
+    <file component="control" timestamp="1645530233">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>IntegralLoopGainSpecifiedAsGainValueAtSingleFrequencyExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex96023559</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ComputeAndPlotSingularValuesExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex96089499</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>InitialConditionPlotWithSpecifiedGridColorExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex96646731</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>DistillationColumnExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex96857220</metadata>
+    <thumbnail>data/distilldemo2.png</thumbnail>
+    <product>control</product>
+    <product>matlab</product>
+    <product>slcontrol</product>
+    <product>simulink</product>
+    <file component="control" timestamp="0">distilldemo1.png</file>
+    <file component="control" timestamp="0">distilldemo2.png</file>
+    <file component="control" timestamp="1629915020">rct_distillation.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>autotunedemo</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex97751919</metadata>
+    <thumbnail>html/autotunedemo_07.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractStandardFormCoefficientsFromParallelFormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex97876089</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ParameterAndStateEstimationUsingParticleFilterBlockExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex97880964</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file timestamp="1559228703" component="control">pfBlockExample.slx</file>
+    <file timestamp="1516307837" component="control">pfBlockExampleBlockDialog1.png</file>
+    <file timestamp="1516307837" component="control">pfBlockMeasurementLikelihoodFcnExample.m</file>
+    <file timestamp="1516375717" component="control">pfBlockStateTransitionFcnExample.m</file>
+  </demoitem>
+  <demoitem>
+    <source>LTVModelOfTwoLinkRobotExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex97897762</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simscapemultibody</product>
+    <product>slcontrol</product>
+    <file component="control" timestamp="1674339688">TwoLinkRobotSM.slx</file>
+    <file component="control" timestamp="1674339688">XYTrajectory.mat</file>
+    <file component="control" timestamp="1674339688">plotTrajectory.m</file>
+    <file component="control" timestamp="1674339688">twoLinkInverseKinematics.m</file>
+  </demoitem>
+  <demoitem>
+    <source>WeightedConstraintOnH2NormExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex98225725</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>MinimumLoopGainRequirementExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex98554442</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ExtractCoefficientsFromPIControllerArrayExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex98745705</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>CreateArrayOfTransferFunctionModelsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex98887801</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>NegativeFeedbackLoopWithMIMOSystemsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex99032781</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>AnalysisOfGainScheduledPIControllerExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex99214180</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1674429463">k1FcnGSPI.m</file>
+    <file component="control" timestamp="1674429463">k2FcnGSPI.m</file>
+    <file component="control" timestamp="1674429463">plantFcnGSPI.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ControlSystemWithBothNumericandTunableComponentsExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex99746700</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1385568133">architecture.png</file>
+  </demoitem>
+  <demoitem>
+    <source>CreateParametricDiagonalMatrixExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex99826949</metadata>
+    <product>matlab</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>ConvertAnalyticLPVModelToGriddedLPVModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex99853719</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <file component="control" timestamp="1673208664">dataFcnMaglev.m</file>
+  </demoitem>
+</demos>

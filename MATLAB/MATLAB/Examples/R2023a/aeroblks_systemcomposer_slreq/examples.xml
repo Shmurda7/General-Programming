@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<demos>
+  <demoitem>
+    <source>ModelBasedSystemEngineeringSpaceMissionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex15325255</metadata>
+    <thumbnail>data/asbCubeSatMBSEProjectThumbnail.PNG</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>aeroblks</product>
+    <product>systemcomposer</product>
+    <product>slrequirements</product>
+    <file component="aeroblks_systemcomposer_slreq" timestamp="1650548918">asbCubeSatMBSEProjectThumbnail.PNG</file>
+  </demoitem>
+</demos>

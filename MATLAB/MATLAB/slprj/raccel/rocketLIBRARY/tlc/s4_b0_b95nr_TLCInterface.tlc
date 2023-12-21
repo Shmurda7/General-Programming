@@ -1,0 +1,42 @@
+%implements s4_b0_b95nr_TLCInterface "C"
+
+%function getInputAddr_4_1_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.p0shvkceq5" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_4_1_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.p0shvkceq5" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_4_1_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtDW.awyzpux4va"
+%endfunction
+
+%function getDWork_4_1_0_1_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtDW.awyzpux4va"
+%endfunction
+
+%function getInputAddr_4_1_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtB.p0shvkceq5" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_4_1_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtB.p0shvkceq5" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_4_1_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "&rtDW.awyzpux4va"
+%endfunction
+
+%function getDWork_4_1_0_3_0_0_0(opaqueBlock, block, lcv, ucv, sigIdx, reim) void
+
+%return "rtDW.awyzpux4va"
+%endfunction
+

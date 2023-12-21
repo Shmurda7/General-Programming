@@ -1,0 +1,40 @@
+clear;clc;close all;
+
+%% Side View
+%intial inputs
+spin = 1.5; %deg/s
+mass = 1300; %g %3000g for rocket
+radius = 2.165; %in
+time = 30; %s
+
+%conversions to SI
+omega = spin*(pi/180); %rad/s
+m = 125000;% kg
+l = 7; %m 
+w = 3.7; %m
+t = time; %s
+
+A = l*w; %cross area of tubing
+
+I = A^4/12; %moment of intertia
+L = omega*I; %angular moment
+tau = L/t; %torque
+F_side = tau/r %force
+
+%% Top View
+%intial inputs
+spin = 1.5; %deg/s
+mass = 1300; %g %3000g for rocket
+
+%conversions to SI
+omega = spin*(pi/180); %rad/s
+m = 125000;% kg
+l = 7; %m
+w =  
+
+A = l*w; %cross area of tubing
+
+I = A^4/12; %moment of intertia
+L = omega*I; %angular moment
+tau = L/t; %torque
+F_top = tau/r %force

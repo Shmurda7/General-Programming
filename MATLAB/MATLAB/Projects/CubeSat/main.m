@@ -1,0 +1,327 @@
+%%
+clear; clc; close all
+disp('Simulaiton Started')
+tic
+
+%%
+%igrf_setup
+%^
+% This gets me the magnetic field values
+% igrf ('date', lat, long, alt, coord)
+%[Bx, By, Bz] = igrf('01-Jan-2010',0,0,400,igrf_coord)
+%values come out as nanoteslas
+%Bx*1e-9 <-this comes out as teslas
+%this caused problems having it in the geocentric coordinate frame, gave
+%the wrong magnetic field values
+%so instead removes the igrf_setup cause its not needed anymore
+
+%%
+
+%%% make global
+global BB m I Is invI mu lastMagUpdate nextMagUpdate lastSensorUpdate 
+global nextSensorUpdate BfieldMeasured pqrMeasured ptpMeasured BfieldNav pqrNav ptpNav
+global BfieldNavPrev pqrNavPrev ptpNavPrev current Ir1Bcg Ir2Bcg Ir3Bcg n1 n2 n3
+global maxSpeed maxAlpha Ir1B Ir2B Ir3B rwalphas
+global fsensor MagFieldBias AngFieldBias EulerBias R Amax lmax CD
+global MagFieldNoise AngFieldNoise EulerNoise IrR Jinv
+
+%%%initiialize nav filter
+BfieldNavPrev = [-99;0;0];
+pqrNavPrev = [0;0;0];
+ptpNavPrev = [0;0;0];
+
+%%% Setup the IGRF Model
+addpath 'igrf/'
+
+%%% Get Planet Parameters
+planet
+
+%%% Get mass and Inertia properties
+inertia
+
+%%% Initial Conditions Position and Velocity
+altitude = 600*1000; %meters
+x0 = R + altitude;
+y0 = 0;
+z0 = 0;
+xdot0 = 0;
+inclination = 56*pi/180;
+semi_major = norm([x0;y0;z0]);
+vcircular = sqrt(mu/semi_major);
+ydot0 = vcircular*cos(inclination);
+zdot0 = vcircular*sin(inclination);
+
+%%% Initial Conditions for Attitude and Angular Velocity
+phi0 = 0;
+theta0 = 0;
+psi0 = 0;
+ptp0 = [phi0;theta0;psi0];
+q0123_0 = EulerAngles2Quarternions(ptp0);
+p0 = 0.8;
+q0 = -0.2;
+r0 = 0.3;
+%%%initial conditions of reactions wheels
+w10 = 0;
+w20 = 0;
+w30 = 0;
+
+state = [x0;y0;z0;xdot0;ydot0;zdot0;q0123_0;p0;q0;r0;w10;w20;w30];
+
+%%%Need time window
+period = 2*pi/sqrt(mu)*semi_major^(3/2);
+number_of_orbits = 1;
+tfinal = period*number_of_orbits;
+%tfinal = 500;
+timestep = 100;
+tout = 0:timestep:tfinal;
+stateout = zeros(length(tout),length(state));
+%%%where we integrate the EOM
+%[tout,stateout] = ode45(@Satellite, tspan, stateinitial);
+%%% Loop through stateout to extract Magnetic Field
+%loop through time to integrate
+BxBout = 0*stateout(:,1);
+ByBout = BxBout;
+BzBout = BxBout;
+BxBm = 0*stateout(:,1);
+ByBm = BxBout;
+BzBm = BxBout;
+pqrm = zeros(length(tout),3);
+
+ptpm = zeros(length(tout),3);
+ptpN = 0*ptpm;
+
+BxBN = 0*stateout(:,1);
+ByBN = BxBout;
+BzBN = BxBout;
+pqrN = zeros(length(tout),3);
+
+ix = 0*stateout(:,1);
+iy = ix;
+iz = ix;
+
+rwa = 0*ptpm;
+
+nextMagUpdate = 1;
+lastMagUpdate = 0;
+
+%sensor parameters
+lastSensorUpdate = 0;
+%nextSensorUpdate = 1;
+sensor_params
+
+%%%call the derivatives routine to initialize vars
+k1 = Satellite(tout(1),state);
+
+%%%print next
+next = 10;
+lastPrint = 0;
+
+for idx = 1:length(tout)
+    %everytime through loop need to save current state
+    stateout(idx,:) = state';
+
+    %%% save the current
+    ix(idx) = current(1);
+    iy(idx) = current(2);
+    iz(idx) = current(3);
+
+    %%%save reaciton wheel accleration
+    rwa(idx,:) = rwalphas';
+
+    %save mag field
+    BxBout(idx) = BB(1);
+    ByBout(idx) = BB(2);
+    BzBout(idx) = BB(3);
+    BxBm(idx) = BfieldMeasured(1);
+    ByBm(idx) = BfieldMeasured(2);
+    BzBm(idx) = BfieldMeasured(3);
+    BxBN(idx) = BfieldNav(1);
+    ByBN(idx) = BfieldNav(2);
+    BzBN(idx) = BfieldNav(3);
+    %Save the polluted pqr signal
+    pqrm(idx,:) = pqrMeasured';
+    %%%save the filterd pqr signal
+    pqrN(idx,:) = pqrNav';
+    %%%save ptp
+    ptpm(idx,:) = ptpMeasured';
+    ptpN(idx,:) = ptpNav';
+
+    if tout(idx) > lastPrint
+        disp(['Time = ',num2str(tout(idx)),' / ',num2str(tfinal)])
+        lastPrint = lastPrint+next;
+    end
+    %then we make our 4 function calls for RK4
+    k1 = Satellite(tout(idx), state);
+    k2 = Satellite(tout(idx)+timestep/2,state+k1*timestep/2);
+    k3 = Satellite(tout(idx)+timestep/2,state+k2*timestep/2);
+    k4 = Satellite(tout(idx)+timestep,state+k3*timestep);
+    k = (1/6)*(k1+2*k2+2*k3+k4);
+    state = state+k*timestep;
+end
+
+disp('Simulation Complete')
+
+%convert state to kilometers
+stateout(:,1:6) = stateout(:,1:6)/1000;
+
+%extract state vector
+xout = stateout(:,1);
+yout = stateout(:,2);
+zout = stateout(:,3);
+q0123out = stateout(:,7:10);
+ptpout = Quaternions2EulerAngles(q0123out);
+pqrout = stateout(:,11:13);
+w123 = stateout(:,14:16);
+
+%make an Earth
+earthTexture = imread('http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Land_ocean_ice_2048.jpg/1024px-Land_ocean_ice_2048.jpg');
+earthTexture = flipud(earthTexture);
+[X, Y, Z] = sphere(100);
+X = X*R/1000;
+Y = Y*R/1000;
+Z = Z*R/1000;
+
+%%%Plot X,Y,Z as a function of time
+fig0 = figure();
+set(fig0,'color','white')
+plot(tout,sqrt(xout.^2+yout.^2+zout.^2)-R/1000,'b-','LineWidth',2)
+%hold on
+grid on
+%plot(tout,yout,'r-','LineWidth',2)
+%plot(tout,zout,'g-','LineWidth',2)
+xlabel('Time (sec)')
+ylabel('Altitude (km)')
+%legend('X','Y','Z')
+
+%%%PLOT 3D orbit
+fig = figure();
+set(fig,'color','white')
+plot3(xout,yout,zout,'b-','LineWidth',4)
+xlabel('X')
+ylabel('Y')
+zlabel('Z')
+grid on
+hold on
+globe = surf(X,Y,Z,'EdgeColor','none');
+set(globe,'FaceColor','texturemap','CData',earthTexture,'FaceAlpha', 1,'EdgeColor','none');
+axis equal
+
+%%% Plot Mag field
+fig2 = figure();
+set(fig2, 'color','white')
+p1 = plot(tout,BxBout,'b-','LineWidth',2);
+hold on
+grid on
+p2 = plot(tout,ByBout,'r-','LineWidth',2);
+p3 = plot(tout,BzBout,'g-','LineWidth',2);
+p1m = plot(tout,BxBm,'b-s','LineWidth',2);
+p2m = plot(tout,ByBm,'r-s','LineWidth',2);
+p3m = plot(tout,BzBm,'g-s','LineWidth',2);
+p1N = plot(tout,BxBN,'b--','LineWidth',2);
+p2N = plot(tout,ByBN,'r--','LineWidth',2);
+p3N = plot(tout,BzBN,'g--','LineWidth',2);
+xlabel('Time (sec)')
+ylabel('Mag Field (T)')
+legend([p1,p2,p3,p1m,p2m,p3m,p1N,p2N,p3N],'Bx','By','Bz','Bx Measured','By Measured','Bz Measured', 'Bx Nav', 'By Nav', 'Bz Nav')
+
+%%% And Norm
+Bnorm = sqrt(BxBout.^2 + ByBout.^2 + BzBout.^2);
+fig3 = figure();
+set(fig3,'color','white')
+plot(tout,Bnorm, 'LineWidth',2)
+xlabel('Time (sec)')
+ylabel('Norm of Magnetic Field (T)')
+grid on
+
+%%% Plot Euler Angles
+fig4 = figure();
+set(fig4,'color','white')
+p1 = plot(tout,ptpout*180/pi,'-','LineWidth',2);
+hold on
+p2 = plot(tout,ptpm*180/pi,'-s','LineWidth',2);
+p3 = plot(tout,ptpN*180/pi,'--','LineWidth',2);
+grid on
+xlabel('Time (sec)')
+ylabel('Euler Angles (deg)')
+legend('Phi','Theta','Psi')
+legend([p1(1),p2(1),p3(1)],'Actual','Measured','Nav')
+
+%%% Plot Anguler Velocity
+fig5 = figure();
+set(fig5,'color','white')
+p1 = plot(tout,pqrout,'LineWidth',2);
+grid on
+hold on
+p2 = plot(tout,pqrm,'-s','LineWidth',2);
+p3 = plot(tout,pqrN,'--','LineWidth',2);
+xlabel('Time (sec)')
+ylabel('Angular Velocity (rad/s)')
+legend([p1(1),p2(1),p3(1)],'Actual','Measured','Nav')
+
+%%%plot the current in the magnetorquers
+fig6 = figure();
+set (fig6,'color','white')
+plot(tout,ix*1000,'LineWidth',2)
+grid on
+hold on
+plot(tout,iy*1000,'LineWidth',2)
+plot(tout,iz*1000,'LineWidth',2)
+xlabel('Time (sec)')
+ylabel('Current in the Magnetorquers (mA)')
+legend('X','Y','Z')
+
+%%% plot the angular velocity of the RWs
+fig7 = figure();
+set (fig7,'color','white')
+plot(tout,rwa,'LineWidth',2)
+grid on
+xlabel('Time (sec)')
+ylabel('Angular Acceleration of RWs (rad/s^2)')
+legend('1','2','3')
+
+%%% plot the angular velocity of the RWs
+fig8 = figure();
+set (fig8,'color','white')
+plot(tout,w123,'LineWidth',2)
+grid on
+xlabel('Time (sec)')
+ylabel('Angular Velocity of RWs (rad/s)')
+legend('1','2','3')
+
+mag_total_current = (abs(ix)+abs(iy)+abs(iz)); %A
+
+%%% plot the total current in the magnetorquers
+fig9 = figure();
+set (fig9,'color','white')
+plot(tout,mag_total_current*1000,'LineWidth',2)
+grid on
+xlabel('Time (sec)')
+ylabel('Total Current in Magnetorquers(mA)')
+
+%%%%plot the current in the reaction wheels
+current_rwa = Amps2Alpha*rwa;
+fig10 = figure();
+set (fig10,'color','white')
+plot(tout,current_rwa*1000,'LineWidth',2)
+grid on
+xlabel('Time (sec)')
+ylabel('Current RWs (mA)')
+
+%%%plot the total current for the reaction wheels
+rw_current_total = abs(current_rwa(:,1)) + abs(current_rwa(:,2)) + abs(current_rwa(:,3));
+fig11 = figure();
+set (fig11,'color','white')
+plot(tout,rw_current_total*1000,'LineWidth',2)
+grid on
+xlabel('Time (sec)')
+ylabel('Total Current in RWs (mA)')
+
+%%%plot the total current in the entire system
+fig12 = figure();
+set (fig12,'color','white')
+plot(tout,(mag_total_current+rw_current_total)*1000,'LineWidth',2)
+grid on
+xlabel('Time (sec)')
+ylabel('Total Current in Magnetorquers+RWs (mA)')
+
+toc

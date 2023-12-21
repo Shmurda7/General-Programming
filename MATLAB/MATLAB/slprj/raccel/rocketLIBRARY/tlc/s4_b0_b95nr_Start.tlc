@@ -1,0 +1,23 @@
+%implements s4_b0_b95nr_Start "C"
+
+%function Start(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%assign tlcSetupRuntimeResourcesFcnOfS4B1 = OpaqueTLCBlockFcn("SetupRuntimeResources", 4, 1, 0, 1, 0)
+%<tlcSetupRuntimeResourcesFcnOfS4B1>\
+rtDW.n0rsg5tawa = 0;
+rtDW.lyamxhsgtb = 0;
+rtDW.iez3ymddrk = 0;
+rtDW.pyhu0x3txh = 0;
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function StartFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 1, fcnProtoType)>
+%endfunction

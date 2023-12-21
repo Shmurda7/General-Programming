@@ -1,0 +1,49 @@
+%implements s4_b0_b95nr_ZeroCrossings "C"
+
+%function ZeroCrossings(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+ZCV *_rtZCSV;
+%closefile localVarDecl
+%<SLibCG_TrackZCSV(4)>\
+_rtZCSV = %<(SLibCG_SE(SLibGetZCSignalValueStrucPtr()))>;
+_rtZCSV->lu3c55ecxf[0] = rtB.eenfrxbcez[0] - rtP.uftinf_UpperSat;
+_rtZCSV->axz4m0humc[0] = rtB.eenfrxbcez[0] - rtP.uftinf_LowerSat;
+_rtZCSV->mwyudkm1dy[0] = rtB.p0shvkceq5[0] - rtP.Limitaltitudetotroposhere_UpperSat;
+_rtZCSV->bt0q5oi2ra[0] = rtB.p0shvkceq5[0] - rtP.Limitaltitudetotroposhere_LowerSat;
+_rtZCSV->aw0opacu4m[0] = rtB.gx2bnlk0lw[0] - rtP.LimitaltitudetoStratosphere_UpperSat;
+_rtZCSV->ntoczab3l3[0] = rtB.gx2bnlk0lw[0] - rtP.LimitaltitudetoStratosphere_LowerSat;
+_rtZCSV->lu3c55ecxf[1] = rtB.eenfrxbcez[1] - rtP.uftinf_UpperSat;
+_rtZCSV->axz4m0humc[1] = rtB.eenfrxbcez[1] - rtP.uftinf_LowerSat;
+_rtZCSV->mwyudkm1dy[1] = rtB.p0shvkceq5[1] - rtP.Limitaltitudetotroposhere_UpperSat;
+_rtZCSV->bt0q5oi2ra[1] = rtB.p0shvkceq5[1] - rtP.Limitaltitudetotroposhere_LowerSat;
+_rtZCSV->aw0opacu4m[1] = rtB.gx2bnlk0lw[1] - rtP.LimitaltitudetoStratosphere_UpperSat;
+_rtZCSV->ntoczab3l3[1] = rtB.gx2bnlk0lw[1] - rtP.LimitaltitudetoStratosphere_LowerSat;
+_rtZCSV->lu3c55ecxf[2] = rtB.eenfrxbcez[2] - rtP.uftinf_UpperSat;
+_rtZCSV->axz4m0humc[2] = rtB.eenfrxbcez[2] - rtP.uftinf_LowerSat;
+_rtZCSV->mwyudkm1dy[2] = rtB.p0shvkceq5[2] - rtP.Limitaltitudetotroposhere_UpperSat;
+_rtZCSV->bt0q5oi2ra[2] = rtB.p0shvkceq5[2] - rtP.Limitaltitudetotroposhere_LowerSat;
+_rtZCSV->aw0opacu4m[2] = rtB.gx2bnlk0lw[2] - rtP.LimitaltitudetoStratosphere_UpperSat;
+_rtZCSV->ntoczab3l3[2] = rtB.gx2bnlk0lw[2] - rtP.LimitaltitudetoStratosphere_LowerSat;
+_rtZCSV->em3amdgmbu = rtB.ltespdje45[0];
+_rtZCSV->jvpprkpwgk = rtB.f3grp50dae - rtP.CompareToConstant_const_pwri3oqztp;
+_rtZCSV->m0qienrh44 = rtB.a4vnpcfi1i;
+_rtZCSV->nopzsnecq5 = rtB.cnuqgk0ctt - rtP.CompareToConstant_const;
+_rtZCSV->hhidsenk2j = rtB.a4vnpcfi1i;
+_rtZCSV->cle00v3zor = rtB.bzbu3yseb2;
+_rtZCSV->h4g4pudpyw = rtB.dekfyvtcle - rtP.CompareToConstant_const_eds1jbkaw1;
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedZeroCrossingLocalVars", localVarDecl)>
+%endfunction
+%function ZeroCrossingsFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ZeroCrossings(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 7, fcnProtoType)>
+%endfunction

@@ -1,0 +1,35 @@
+%implements s4_b0_b95nr_Derivatives "C"
+
+%function Derivatives(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+XDot *_rtXdot;
+%closefile localVarDecl
+_rtXdot = %<(SLibCG_SE(SLibGetContStatesDerivativeStructPtr()))>;
+_rtXdot->e23jdsrfeo[0] = rtB.nycpslghoj[0];
+_rtXdot->n5z0itpfcl[0] = rtB.jrvb2m0kwj[0];
+_rtXdot->ffm313ejt1[0] = rtB.hdpsy3sguu[0];
+_rtXdot->igfhqv0lvj[0] = rtB.o3epcvura2[0];
+_rtXdot->e23jdsrfeo[1] = rtB.nycpslghoj[1];
+_rtXdot->n5z0itpfcl[1] = rtB.jrvb2m0kwj[1];
+_rtXdot->ffm313ejt1[1] = rtB.hdpsy3sguu[1];
+_rtXdot->igfhqv0lvj[1] = rtB.o3epcvura2[1];
+_rtXdot->e23jdsrfeo[2] = rtB.nycpslghoj[2];
+_rtXdot->n5z0itpfcl[2] = rtB.jrvb2m0kwj[2];
+_rtXdot->ffm313ejt1[2] = rtB.hdpsy3sguu[2];
+_rtXdot->igfhqv0lvj[2] = rtB.o3epcvura2[2];
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedDerivativeLocalVars", localVarDecl)>
+%endfunction
+%function DerivativesFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Derivatives(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 5, fcnProtoType)>
+%endfunction

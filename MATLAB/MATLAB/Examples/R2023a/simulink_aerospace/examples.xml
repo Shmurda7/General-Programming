@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<demos>
+  <demoitem>
+    <source>DesigningAGuidanceSystemInMATLABAndSimulinkExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/DesigningAGuidanceSystemInMATLABAndSimulinkExample.html</file>
+    <metadata>ex12197680</metadata>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <product>stateflow</product>
+    <file component="simulink_aerospace" open="open" timestamp="1671789320">aero_guidance.slx</file>
+    <file component="simulink_aerospace" timestamp="1583172550">guidance_missile.gif</file>
+    <file component="simulink_aerospace" timestamp="1583172550">guidance_airden.gif</file>
+    <file component="simulink_aerospace" timestamp="1583172550">guidance_ltiviewe.gif</file>
+    <file component="simulink_aerospace" timestamp="1583172550">guidance_sight.gif</file>
+    <file component="simulink_aerospace" timestamp="1583172550">guidance_radome.gif</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aerospace.slx</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aero_guid_plot.m</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aero_guid_dat.m</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aero_guid_autop.mat</file>
+    <file component="simulink_aerospace" timestamp="1583172550">sanim3dof.m</file>
+  </demoitem>
+  <demoitem>
+    <source>DesigningAHighAngleOfAttackPitchModeControlExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/DesigningAHighAngleOfAttackPitchModeControlExample.html</file>
+    <metadata>ex31311701</metadata>
+    <hideCode/>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="simulink_aerospace" timestamp="1585912956" open="open">slexAircraftPitchControlExample.slx</file>
+    <file component="simulink_aerospace" timestamp="1585942217">slexAircraftPitchControlDAP.slx</file>
+    <file component="simulink_aerospace" timestamp="1585942502">slexAircraftPitchControlAutopilot.slx</file>
+    <file component="simulink_aerospace" timestamp="1583173176">slexAircraftPitchControlDAP.mat</file>
+    <file component="simulink_aerospace" timestamp="1583173176">slexAircraftPitchControlData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>SimulinkModelDiscretizerExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/SimulinkModelDiscretizerExample.html</file>
+    <metadata>ex35208484</metadata>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file component="repository/simulink" open="open" timestamp="1674583883">slexAircraftExample.slx</file>
+    <file component="repository/simulink" timestamp="1583179676">slexAircraftData.m</file>
+  </demoitem>
+  <demoitem>
+    <source>DevelopingTheApolloLunarModuleDigitalAutopilotExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex47435470</metadata>
+    <thumbnail>html/DevelopingTheApolloLunarModuleDigitalAutopilotExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>simulink</product>
+    <product>sl3d</product>
+    <product>stateflow</product>
+    <file component="simulink_aerospace" timestamp="1637364694">aero_dap3dof.slx</file>
+    <file component="simulink_aerospace" timestamp="1668855569">aero_dap3dofdata.m</file>
+    <file component="simulink_aerospace" timestamp="1637253941">aero_libdap.slx</file>
+    <file component="simulink_aerospace" timestamp="1637253941">aero_librcs.slx</file>
+    <file component="simulink_aerospace" timestamp="1637253941">aero_phaseplane.m</file>
+    <file component="simulink_aerospace" timestamp="1668894168">Lander_Moon180_1.wrl</file>
+    <file component="simulink_aerospace" timestamp="1668894168">Moon_180_Elev_8192.wrl</file>
+    <file component="simulink_aerospace" timestamp="1668894168">SkyDome_Space.wrl</file>
+    <file component="simulink_aerospace" timestamp="1668894168">lander2.wrl</file>
+    <dir component="simulink_aerospace" timestamp="1668894168">texture</dir>
+  </demoitem>
+  <demoitem>
+    <source>AircraftLongitudinalFlightControlExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/AircraftLongitudinalFlightControlExample.html</file>
+    <metadata>ex50027965</metadata>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="repository/simulink" timestamp="" open="open">slexAircraftExample.slx</file>
+    <file component="repository/simulink" timestamp="1583179676">slexAircraftData.m</file>
+  </demoitem>
+  <demoitem>
+    <source>AirTrafficControlRadarDesignExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/AirTrafficControlRadarDesignExample.html</file>
+    <metadata>ex57604109</metadata>
+    <thumbnail>html/AirTrafficControlRadarDesignExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="simulink_aerospace" timestamp="1583180196">atc_Image2.gif</file>
+    <file component="simulink_aerospace" timestamp="1583180196">atc_Image1.gif</file>
+    <file component="simulink_aerospace" open="open" timestamp="1629103679">aero_atc.slx</file>
+    <file component="simulink_aerospace" timestamp="1583180196">aero_atcgui.m</file>
+    <file component="simulink_aerospace" timestamp="1583180196">aero_atc_callback.m</file>
+    <file component="simulink_aerospace" timestamp="1583180196">aero_init_atc.m</file>
+  </demoitem>
+  <demoitem>
+    <source>OpticalSensorImageGenerationExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex66315739</metadata>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="simulink_aerospace" timestamp="1585863225">aero_vibrati.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SixDegreesOfFreedom6DoFMotionPlatformExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/SixDegreesOfFreedom6DoFMotionPlatformExample.html</file>
+    <metadata>ex79595661</metadata>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="simulink_aerospace" timestamp="1585938477" open="open">aero_six_dof.slx</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aerospace.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>AirframeTrimAndLinearizeExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/AirframeTrimAndLinearizeExample.html</file>
+    <metadata>ex98259709</metadata>
+    <thumbnail>html/AirframeTrimAndLinearizeExample_02.png</thumbnail>
+    <product>matlab</product>
+    <product>control</product>
+    <product>simulink</product>
+    <product>slcontrol</product>
+    <file component="simulink_aerospace" open="open" timestamp="1585686108">aero_guidance_airframe.slx</file>
+    <file component="simulink_aerospace" timestamp="1585137195">guidance_airframe.gif</file>
+    <file component="simulink_aerospace" timestamp="1585938274">aero_guidance.slx</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aero_guid_dat.m</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aero_guid_autop.mat</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aerospace.slx</file>
+    <file component="simulink_aerospace" timestamp="1585137195">aero_guid_plot.m</file>
+  </demoitem>
+  <demoitem>
+    <source>RadarTrackingUsingMATLABFunctionBlockExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/RadarTrackingUsingMATLABFunctionBlockExample.html</file>
+    <metadata>ex98848214</metadata>
+    <hideCode/>
+    <product>matlab</product>
+    <product>simulink</product>
+    <file component="simulink_aerospace" timestamp="1585861683" open="open">sldemo_radar_eml.slx</file>
+    <file component="simulink_aerospace" timestamp="1585942746">sldemo_radar.slx</file>
+    <file component="simulink_aerospace" timestamp="1585137689">aero_radplot.m</file>
+    <file component="simulink_aerospace" timestamp="1585137689">aero_extkalman.m</file>
+  </demoitem>
+</demos>
